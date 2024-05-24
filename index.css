@@ -1,0 +1,34 @@
+*{
+  box-sizing:border-box;
+  padding: 0;
+  margin:0;
+  background-color: #d2dbdd;
+}
+
+div{
+  width:100%;
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d2dbdd;
+}
+
+button{
+  padding: 15px;
+  background-color: #9083de;
+  color:black;
+  font-size:2rem;
+  border :2px solid #ecf0f1;
+  border-radius: 6px;
+  text-transform: uppercase;
+  cursor: pointer;
+
+}
+
+button:hover{
+  background-color: #76d6c3;
+  border :2px solid #4fb6d0;
+
+}
